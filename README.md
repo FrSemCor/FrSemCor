@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Corpus of semantically annotated French nouns
 
-You can use the [editor on GitHub](https://github.com/FrSemCor/FrenchSemanticCorpus/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Authors** : Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoit Crabbé et Vincent Segonne
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**The project** : The project aims at compensating for the lack of semantically annotated data that can be used in both NLP and linguistics research. We provide a gold standard resource for French nouns, based on a careful semantic annotation designed and supervised by lexical semantics experts. 
 
-### Markdown
+### Annotation guide
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+We have designed an [annotation guide]() (in French) during a preliminary annotation phase. Then % of nominal tokens from the 
+[Sequoia corpus](https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia) corpus have been doubly-annotated by three French native students.
 
-```markdown
-Syntax highlighted code block
+### Resulting corpus
+The [resulting corpus]() contains xxx occurrences of nouns, annotated into 24 supersenses (+ complex supersenses). The following 
+table indicates the distribution of the 20 most frequent supersenses in adjudicated data.
 
-# Header 1
-## Header 2
-### Header 3
+The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LGPLLR.html) licence.
 
-- Bulleted
-- List
+### Reference
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FrSemCor/FrenchSemanticCorpus/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you use the corpus or need more information, please refer to:
+Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoît Crabbé and Vincent Segonne (2020) Annotating a French Corpus with Supersenses, Proceedings of LREC-2020, Marseille. 13-15 mai 2020. [preprint version]()
