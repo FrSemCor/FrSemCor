@@ -1,6 +1,6 @@
-## Corpus of semantically annotated French nouns
+## Fr_Semcor, a corpus of semantically annotated French nouns
 
-**Authors** : Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoit Crabbé et Vincent Segonne
+**Authors** : Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoit Crabbé and Vincent Segonne
 
 **The project** 
 
