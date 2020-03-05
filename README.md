@@ -2,7 +2,9 @@
 
 **Authors** : Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoit Crabbé et Vincent Segonne
 
-**The project** : The project aims at compensating for the lack of semantically annotated data that can be used in both NLP and linguistics research. We provide a gold standard resource for French nouns, based on a careful semantic annotation designed and supervised by lexical semantics experts. 
+**The project** 
+
+The project aims at compensating for the lack of semantically annotated data that can be used in both NLP and linguistics research. We provide a gold standard resource for French nouns, based on a careful semantic annotation designed and supervised by lexical semantics experts. 
 
 ### Annotation guide
 
@@ -18,4 +20,5 @@ The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LG
 ### Reference
 
 If you use the corpus or need more information, please refer to:
+
 Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoît Crabbé and Vincent Segonne (2020) Annotating a French Corpus with Supersenses, Proceedings of LREC-2020, Marseille. 13-15 mai 2020. [preprint version]()
