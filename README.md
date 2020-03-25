@@ -21,4 +21,4 @@ The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LG
 
 If you use the corpus or need more information, please refer to:
 
-Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoît Crabbé and Vincent Segonne (2020) Annotating a French Corpus with Supersenses, Proceedings of LREC-2020, Marseille. 13-15 mai 2020. [preprint version](https://github.com/FrSemCor/FrSemCor/Fr_SemCor_LREC2020.pdf)
+Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoît Crabbé and Vincent Segonne (2020) Annotating a French Corpus with Supersenses, Proceedings of LREC-2020, Marseille. 13-15 mai 2020. [preprint version](https://github.com/FrSemCor/FrSemCor/blob/master/Fr_SemCor_LREC2020.pdf)
