@@ -8,12 +8,11 @@ The project aims at compensating for the lack of semantically annotated data tha
 
 ### Annotation guide
 
-We have designed an [annotation guide]() (in French) during a preliminary annotation phase. Then % of nominal tokens from the 
-[Sequoia corpus](https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia) corpus have been doubly-annotated by three French native students.
+We have designed an [annotation guide]() (in French) during a preliminary annotation phase. Then 73% of the noun tokens from the 
+[Sequoia corpus](https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia) corpus have been doubly-annotated by three French native students. They were adjudicated, and all noun tokens were validated by an expert. 
 
 ### Resulting corpus
-The [resulting corpus]() contains xxx occurrences of nouns, annotated into 24 supersenses (+ complex supersenses). The following 
-table indicates the distribution of the 20 most frequent supersenses in adjudicated data.
+The [resulting corpus]() contains 12,917 noun tokens, annotated into 24 supersenses (+ complex supersenses). 
 
 The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LGPLLR.html) licence.
 
