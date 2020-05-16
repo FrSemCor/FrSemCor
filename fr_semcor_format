@@ -37,7 +37,6 @@ Information in columns 1 to 5 are extracted from sequoia 9.1 (https://deep-sequo
 20	.	.	PONCT	s=s	*
 -----------------------------------------------------------
 
-
 FR_SEMCOR SUPERSENSES 
 
 Supersenses apply to simple noun tokens (as for tokens 2, 10, 17 and 19 in the example above) or to 
@@ -66,9 +65,6 @@ by id "1") that denotes an Institution and every noun in this NE is annotated se
 11	;	;	PONCT	s=w	*
 -----------------------------------------------------------
 
-
-
 Information are compatible with annotations of named entities and multi-word expressions performed 
-in the Parseme-fr project (https://gitlab.lis-lab.fr/PARSEME-FR/PARSEME-FR-public/)
-Spans are  
+in the Parseme-fr project (https://gitlab.lis-lab.fr/PARSEME-FR/PARSEME-FR-public/) 
 
