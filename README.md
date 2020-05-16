@@ -4,7 +4,7 @@
 
 **The project** 
 
-The project aims at compensating for the lack of semantically annotated data that can be used in both NLP and linguistics research. We provide a gold standard resource for French nouns, based on a careful semantic annotation designed and supervised by lexical semantics experts. 
+The project aims at compensating for the lack of semantically annotated data that can be used in both NLP and linguistics research. We provide a gold standard resource for French nouns, based on a careful semantic annotation designed. 
 
 ### Annotation guide
 
@@ -12,7 +12,7 @@ We have designed an [annotation guide](https://github.com/FrSemCor/FrSemCor/blob
 [Sequoia corpus](https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia) corpus have been doubly-annotated by three French native students. They were adjudicated, and all noun tokens were validated by an expert. 
 
 ### Resulting corpus
-The [resulting corpus]() contains 12,917 noun tokens, annotated into 24 supersenses (+ complex supersenses). 
+The [resulting corpus](https://github.com/FrSemCor/FrSemCor/blob/master/sequoia-9.1.frsemcor) (information on file format [here](https://github.com/FrSemCor/FrSemCor/blob/master/fr_semcor_format)) contains 12,917 noun tokens, annotated into 24 supersenses (+ complex supersenses). 
 
 The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LGPLLR.html) licence.
 
