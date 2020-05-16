@@ -1,0 +1,74 @@
+GENERAL INFORMATION
+
+The corpus contains 3,099 French sentences, from Europarl, Est Republicain newspaper,
+French Wikipedia and European Medicine Agency, with the following manual annotations:
+
+column 1 : token id
+column 2 : form
+column 3 : lemma
+column 4 : part-of-speech
+column 5 : morphological features
+column 6 : fr_semcor supersense
+
+Information in columns 1 to 5 are extracted from sequoia 9.1 (https://deep-sequoia.inria.fr)
+
+----------------------------------------------------------
+# sent_id = annodis.er_00010
+# text = La pose d'un panneau stop paraît être la formule la mieux adaptée pour assurer la sécurité des usagers.
+1	La	le	DET	g=f|n=s|s=def	*
+2	pose	pose	NC	def=y|g=f|n=s|s=c	Act
+3	d'	de	P	void=y	*
+4	un	un	DET	g=m|n=s|s=ind	*
+5	panneau	panneau	NC	g=m|n=s|s=c	1:Artifact
+6	stop	stop	NC	g=m|n=s|s=c	1
+7	paraît	paraître	V	dl=paraître|dm=ind|m=ind|n=s|p=3|t=pst	*
+8	être	être	VINF	dl=être|dm=inf|m=inf	*
+9	la	le	DET	g=f|n=s|s=def	*
+10	formule	formule	NC	def=y|g=f|n=s|s=c	Cognition
+11	la	le	DET	g=f|n=s|s=def|void=y	*
+12	mieux	mieux	ADV	_	*
+13	adaptée	adapté	ADJ	g=f|n=s|s=qual	*
+14	pour	pour	P	_	*
+15	assurer	assurer	VINF	dl=assurer|dm=inf|m=inf	*
+16	la	le	DET	g=f|n=s|s=def	*
+17	sécurité	sécurité	NC	def=y|g=f|n=s|s=c	State
+18	des	de	P+D	s=def|void=y	*
+19	usagers	usager	NC	def=y|g=m|n=p|s=c	Person
+20	.	.	PONCT	s=s	*
+-----------------------------------------------------------
+
+
+FR_SEMCOR SUPERSENSES 
+
+Supersenses apply to simple noun tokens (as for tokens 2, 10, 17 and 19 in the example above) or to 
+multiword expressions (as tokens 5 and 6 in the example above). Multiword expression spans are materialized by 
+a number id ("1" in the example above) and the supersense of the all expression is indicated in its first token, 
+even if its first token is not a noun.  
+
+Named entities are encoded the same way, and when compositional, nouns it contains have been annotated too, as 
+illustrated below : "Association d'entraide des veuves et orphelins de guerre" is a NE (each tokens identified 
+by id "1") that denotes an Institution and every noun in this NE is annotated separately (after the ";" indicator)
+
+
+-----------------------------------------------------------
+# sent_id = annodis.er_00291
+# text = l'Association d'entraide des veuves et orphelins de guerre ;
+1	l'	le	DET	n=s|s=def	*
+2	Association	association	NC	def=y|n=s|s=c	1:Institution;Institution
+3	d'	de	P	void=y	1
+4	entraide	entraide	NC	g=f|n=s|s=c	1;Act
+5	des	de	P+D	s=def|void=y	1
+6	veuves	veuve	NC	def=y|g=f|n=p|s=c	1;Person
+7	et	et	CC	s=c	1
+8	orphelins	orphelin	NC	def=y|g=m|n=p|s=c	1;Person
+9	de	de	P	void=y	1
+10	guerre	guerre	NC	g=f|n=s|s=c	1;Act
+11	;	;	PONCT	s=w	*
+-----------------------------------------------------------
+
+
+
+Information are compatible with annotations of named entities and multi-word expressions performed 
+in the Parseme-fr project (https://gitlab.lis-lab.fr/PARSEME-FR/PARSEME-FR-public/)
+Spans are  
+
