@@ -8,7 +8,7 @@ The project aims at compensating for the lack of semantically annotated data tha
 
 ### Annotation guide
 
-We have designed an [annotation guide]() (in French) during a preliminary annotation phase. Then 73% of the noun tokens from the 
+We have designed an [annotation guide](https://github.com/FrSemCor/FrSemCor/blob/master/guideAnno-FR-SemCor.pdf) (in French) during a preliminary annotation phase. Then 73% of the noun tokens from the 
 [Sequoia corpus](https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia) corpus have been doubly-annotated by three French native students. They were adjudicated, and all noun tokens were validated by an expert. 
 
 ### Resulting corpus
