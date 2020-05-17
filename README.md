@@ -1,7 +1,5 @@
 ## FrSemCor, a corpus of semantically annotated French nouns
 
-**Authors** : Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoit Crabbé and Vincent Segonne
-
 **The project** 
 
 The project aims at compensating for the lack of semantically annotated data that can be used in both NLP and linguistics research. We provide a gold standard resource for French nouns, based on a careful semantic annotation designed. 
