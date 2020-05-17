@@ -9,10 +9,12 @@ The project aims at compensating for the lack of semantically annotated data tha
 ### Annotation guide
 
 We have designed an [annotation guide](https://github.com/FrSemCor/FrSemCor/blob/master/guideAnno-FR-SemCor.pdf) (in French) during a preliminary annotation phase. Then 73% of the noun tokens from the 
-[Sequoia corpus](https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia) corpus have been doubly-annotated by three French native students. They were adjudicated, and all noun tokens were validated by an expert. 
+[Sequoia corpus](https://deep-sequoia.inria.fr) corpus have been doubly-annotated by three French native students. They were adjudicated, and all noun tokens were validated by an expert. 
 
 ### Resulting corpus
 The [resulting corpus](https://github.com/FrSemCor/FrSemCor/blob/master/sequoia-9.1.frsemcor) (information on file format [here](https://github.com/FrSemCor/FrSemCor/blob/master/fr_semcor_format)) contains 12,917 noun tokens, annotated into 24 supersenses (+ complex supersenses). 
+
+Our annotation are compliant with the annotation of named entities and (nominal) multiword expressions performed in the [Parseme-fr project](https://gitlab.lis-lab.fr/PARSEME-FR/PARSEME-FR-public/) 
 
 The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LGPLLR.html) licence.
 
