@@ -14,7 +14,7 @@ We have designed an [annotation guide](https://github.com/FrSemCor/FrSemCor/blob
 ### Resulting corpus
 The [resulting corpus](https://github.com/FrSemCor/FrSemCor/blob/master/sequoia-9.1.frsemcor) (information on file format [here](https://github.com/FrSemCor/FrSemCor/blob/master/fr_semcor_format)) contains 12,917 noun tokens, annotated into 24 supersenses (+ complex supersenses). 
 
-Our annotation are compliant with the annotation of named entities and (nominal) multiword expressions performed in the [Parseme-fr project](https://gitlab.lis-lab.fr/PARSEME-FR/PARSEME-FR-public/) 
+Our annotation are compliant with the annotation of named entities and (nominal) multiword expressions performed in the [Parseme-fr](https://gitlab.lis-lab.fr/PARSEME-FR/PARSEME-FR-public/) project.
 
 The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LGPLLR.html) licence.
 
