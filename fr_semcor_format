@@ -40,14 +40,14 @@ Information in columns 1 to 5 are extracted from sequoia 9.1 (https://deep-sequo
 FR_SEMCOR SUPERSENSES 
 
 Supersenses apply to simple noun tokens (as for tokens 2, 10, 17 and 19 in the example above) or to 
-multiword expressions (as tokens 5 and 6 in the example above). Multiword expression spans are materialized by 
-a number id ("1" in the example above) and the supersense of the all expression is indicated in its first token, 
-even if its first token is not a noun.  
+multiword expressions (MWE), illustrated by "panneau stop" 'stop sign' (tokens 5 and 6 in the example above). This entity 
+has ID 1 and this ID is bore by each of its tokens. Supersenses attributed to MWE appears on the first token or on the 
+first noun ("panneau") of the expression, separated from the id by a colon (1:Artifact).
 
-Named entities are encoded the same way, and when compositional, nouns it contains have been annotated too, as 
-illustrated below : "Association d'entraide des veuves et orphelins de guerre" is a NE (each tokens identified 
-by id "1") that denotes an Institution and every noun in this NE is annotated separately (after the ";" indicator)
-
+Named entities (NE) are encoded the same way, and when compositional, nouns it contains have been annotated too, as 
+illustrated below : "Association d'entraide des veuves et orphelins de guerre" 'association of mutual support of war 
+widows and orphans' is a NE (each tokens identified by ID "1" that denotes an Institution and every noun in this NE is 
+annotated separately after a semi-colon (as 1;Person for "veuves")
 
 -----------------------------------------------------------
 # sent_id = annodis.er_00291
