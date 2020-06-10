@@ -39,15 +39,18 @@ Information in columns 1 to 5 are extracted from sequoia 9.1 (https://deep-sequo
 
 FR_SEMCOR SUPERSENSES 
 
-Supersenses apply to simple noun tokens (as for tokens 2, 10, 17 and 19 in the example above) or to 
-multiword expressions (MWE), illustrated by "panneau stop" 'stop sign' (tokens 5 and 6 in the example above). This entity 
-has ID 1 and this ID is bore by each of its tokens. Supersenses attributed to MWE appears on the first token or on the 
-first noun ("panneau") of the expression, separated from the id by a colon (1:Artifact).
+Supersenses are provided in column 6, either without or with a numerical id prefix, in order to cope with multi-word expressions.
+When a supersense pertains to a single token, it is indicated without any numerical id (as the "Act" supersense for token 2, or "Cognition" for token 10 in the above example).
+When a supersense pertains to a multi-word expression, it is associated to a numerical id. For instance the MWE "panneau stop" 'stop sign'
+is associated to the id 1. The supersense attributed to the MWE appars on the first token or on the first noun of the MWE, separated from the id by a colon (1:Artifact)
 
-Named entities (NE) are encoded the same way, and when compositional, nouns it contains have been annotated too, as 
-illustrated below : "Association d'entraide des veuves et orphelins de guerre" 'association of mutual support of war 
-widows and orphans' is a NE (each tokens identified by ID "1" that denotes an Institution and every noun in this NE is 
-annotated separately after a semi-colon (as 1;Person for "veuves")
+Note that even when partially compositional, we did not annotate the supersenses of the nouns belonging to a MWE, except when the MWE is a named entity.
+For instance in "droit d'auteur", we did not annotate a supersense for "auteur" nor "droit", but only a single supersense for the whole MWE.
+Whereas for the named entity "Association d'entraide des veuves et orphelins de guerre":
+- we did tag it with the Institution supersense (each of its tokens are identified with ID 1, and
+the Institution supersense is provided on token "Association")
+- and we did annotate supersenses for each a the nouns contained ("association", "entraide", "veuves", ...). We used a semi-colon to separate annotations bore on the same token
+(for instance "veuves" is tagged with "1;Person").
 
 -----------------------------------------------------------
 # sent_id = annodis.er_00291
