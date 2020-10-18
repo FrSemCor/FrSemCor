@@ -10,9 +10,10 @@ We have designed an [annotation guide](https://github.com/FrSemCor/FrSemCor/blob
 [Sequoia corpus](https://deep-sequoia.inria.fr) corpus have been doubly-annotated by three French native students. They were adjudicated, and all noun tokens were validated by an expert. The remaining 27% of the tokens were annotated by an expert of the team.
 
 ### Resulting corpus
-The [resulting corpus](https://github.com/FrSemCor/FrSemCor/blob/master/sequoia-9.1.frsemcor) (information on file format [here](https://github.com/FrSemCor/FrSemCor/blob/master/fr_semcor_format)) contains 12,917 noun tokens, annotated into 24 supersenses (+ complex supersenses). 
+The resulting corpus contains 12,917 noun tokens, annotated into 24 supersenses (+ complex supersenses).
+The FrSemCor annotations are released as 12th column of the Sequoia corpus, whose morpho-syntactic annotations are available in two syntactic annotation schemes (FTBdep and Universal Dependencies), cf. [Sequoia corpus](https://deep-sequoia.inria.fr) and (information on FrSemCor annotation format [here](https://github.com/FrSemCor/FrSemCor/blob/master/fr_semcor_format)).
 
-Our annotation is compliant with the annotation of named entities and (nominal) multiword expressions performed in the [Parseme-fr](https://gitlab.lis-lab.fr/PARSEME-FR/PARSEME-FR-public/) project.
+Our annotation is compliant with the annotation of named entities and (nominal) multiword expressions performed in the [Parseme-fr](https://gitlab.lis-lab.fr/PARSEME-FR/PARSEME-FR-public/) project (available as 11th column).
 
 The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LGPLLR.html) licence.
 
@@ -21,3 +22,4 @@ The corpus is freely available, under the [LGPL-LR](https://spdx.org/licenses/LG
 If you use the corpus or need more information, please refer to:
 
 Lucie Barque, Pauline Haas, Richard Huyghe, Delphine Tribout, Marie Candito, Benoît Crabbé and Vincent Segonne (2020) Annotating a French Corpus with Supersenses, Proceedings of LREC-2020, Marseille. 13-15 mai 2020. [preprint version](https://github.com/FrSemCor/FrSemCor/blob/master/Fr_SemCor_LREC2020.pdf)
+
